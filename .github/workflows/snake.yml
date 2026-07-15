@@ -1,0 +1,35 @@
+# 自动生成「贡献蛇」动画（吃掉你贡献格子的那条蛇）。
+# 由 Platane/snk 生成 SVG 并提交回 main 分支的 assets/ 目录。
+# 文档：https://github.com/Platane/snk
+name: Generate Snake
+
+on:
+  # 每天自动刷新一次（UTC 时间，避开整点高峰）
+  schedule:
+    - cron: "17 2 * * *"
+  # 允许在 Actions 页面手动 Run
+  workflow_dispatch:
+  # push 到 main 时也跑一次（首次配置时方便立即生成）
+  push:
+    branches: [main]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: SuperGitlab
+          outputs: |
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit snake to main
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update contribution grid snake"

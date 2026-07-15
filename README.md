@@ -121,8 +121,26 @@
 
 <div align="center">
 
-![Knowledge Changes Destiny](https://img.shields.io/badge/Knowledge%20Changes%20Destiny-FFD700?style=for-the-badge)
+<h3>📊 GitHub Stats Showcase · GitHub 数据展示</h3>
 
+<!-- Stats 三连：统计 / 语言占比 / 连续贡献 -->
+<img src="https://github-readme-stats.vercel.app/api?username=SuperGitlab&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent" height="160" alt="GitHub stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SuperGitlab&layout=compact&hide_border=true&theme=transparent" height="160" alt="Top languages"/>
+<img src="https://streak-stats.demolab.com/?user=SuperGitlab&hide_border=true&theme=transparent" height="160" alt="GitHub streak"/>
+
+<br/><br/>
+
+<!-- 技能图标组 -->
+<img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs,express,redis,rabbitmq,mysql,mongodb,docker,githubactions,linux,vue,git" alt="Skills"/>
+
+<br/><br/>
+
+<!-- 贡献蛇动画（由 .github/workflows/snake.yml 自动生成） -->
+<img src="https://github.com/SuperGitlab/SuperGitlab/raw/main/assets/github-contribution-grid-snake.svg" alt="Contribution snake" width="100%"/>
+
+<!-- lowlighter/metrics 统计图 -->
 <img src="https://github.com/SuperGitlab/SuperGitlab/raw/main/assets/github-metrics.svg" alt="GitHub metrics" width="100%"/>
+
+![Knowledge Changes Destiny](https://img.shields.io/badge/Knowledge%20Changes%20Destiny-FFD700?style=for-the-badge)
 
 </div>
