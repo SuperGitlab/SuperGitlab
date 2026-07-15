@@ -11,8 +11,6 @@
 
 <a href="#english">🇬🇧 English</a> ｜ <a href="#中文">🇨🇳 中文</a>
 
-<img src="https://github.com/SuperGitlab/SuperGitlab/raw/main/assets/github-metrics.svg" alt="GitHub metrics" width="100%"/>
-
 </div>
 
 ---
@@ -124,5 +122,7 @@
 <div align="center">
 
 ![Knowledge Changes Destiny](https://img.shields.io/badge/Knowledge%20Changes%20Destiny-FFD700?style=for-the-badge)
+
+<img src="https://github.com/SuperGitlab/SuperGitlab/raw/main/assets/github-metrics.svg" alt="GitHub metrics" width="100%"/>
 
 </div>
