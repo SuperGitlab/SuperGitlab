@@ -1,0 +1,44 @@
+# 使用 lowlighter/metrics 自动生成 GitHub 统计图（仅统计公开仓库）。
+# 完整配置文档：https://github.com/lowlighter/metrics
+name: Metrics
+
+on:
+  # 每周日凌晨自动跑一次（UTC 时间，Asia/Shanghai 约为周日上午 8 点）
+  schedule:
+    - cron: "0 0 * * 0"
+  # 允许在 GitHub 网页上手动点 "Run workflow"
+  workflow_dispatch:
+  # push 到 main/master 时也会跑（首次配置时方便立即生成）
+  push:
+    branches: ["master", "main"]
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # 让 Action 能把生成的 svg commit 回仓库
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # 这个 token 要在仓库 Settings → Secrets 里配置（METRICS_TOKEN）。
+          # 只统计公开仓库：Classic Token 勾选 public_repo + read:user 即可。
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: SuperGitlab
+          filename: assets/github-metrics.svg
+          template: classic
+          base: header, repositories, metadata
+          config_timezone: Asia/Shanghai
+
+          # 语言统计插件
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
