@@ -123,9 +123,7 @@
 
 <h3>📊 GitHub Stats Showcase · GitHub 数据展示</h3>
 
-<!-- Stats 三连：统计 / 语言占比 / 连续贡献 -->
-<img src="https://github-readme-stats.vercel.app/api?username=SuperGitlab&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent" height="160" alt="GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SuperGitlab&layout=compact&hide_border=true&theme=transparent" height="160" alt="Top languages"/>
+<!-- 连续贡献 streak（github-readme-stats 公共实例不稳定，已移除 stats / top-langs 卡片，统计/语言信息见下方 metrics 图）-->
 <img src="https://streak-stats.demolab.com/?user=SuperGitlab&hide_border=true&theme=transparent" height="160" alt="GitHub streak"/>
 
 <br/><br/>
