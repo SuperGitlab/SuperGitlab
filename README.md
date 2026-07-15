@@ -1,7 +1,7 @@
 <!-- GitHub 个人主页 README。把本仓库命名为 SuperGitlab（和你的用户名完全一致），
      本文件就会自动显示在你的 GitHub 主页顶部。 -->
 
-# 👋 Hi, I'm Wenhan Deng (邓文瀚)
+# 👋 Hi, I'm Wenhan Deng (老狗)
 
 🚀 **Backend Developer (Python) · 5 years of experience** &nbsp;|&nbsp; **Python 后端开发工程师 · 5 年经验**
 📍 Wuhan, China / 湖北武汉
@@ -21,15 +21,15 @@
 
 ### 💼 Work Experience / 工作经历
 
-- **明捷科技 / Mingjie Tech** — *Backend Developer / 后端开发工程师* · `2024/06 – 2026/06`
+- **明捷科技 / Mingjie Tech** — Backend Developer / 后端开发工程师 · `2024/06 – 2026/06`
   Led the core backend of the **AVC.AI** media-processing platform: Bull + Redis multi-queue scheduling for 1000+ daily heterogeneous tasks; built an MCP-protocol media tool server for AI Agents.
   主导 **AVC.AI** 媒体处理服务后端:Bull + Redis 多队列调度,日均稳定调度千余异构任务;研发 MCP 协议 media-mcp 工具服务,供 AI Agent 通过自然语言调用。
 
-- **中至数据集团 / Zhongzhi Data Group** — *Python Developer / Python 开发工程师* · `2022/03 – 2023/12`
+- **中至数据集团 / Zhongzhi Data Group** — Python Developer / Python 开发工程师 · `2022/03 – 2023/12`
   Built a Flask-based intelligent building-design platform; Redis + RabbitMQ distributed pipeline (CAD parse → objectification → remodeling → GLB); BIM objectification via `shapely` + `networkx`.
   基于 Flask 的建筑智能设计平台后端;Redis + RabbitMQ 串联 CAD 解析 / 对象化 / 翻模 / 转 GLB 四阶段;基于 shapely + networkx 实现 BIM 构件对象化。
 
-- **宁德新能源 / Ningde New Energy** — *Data Analyst Developer / 数据分析开发工程师* · `2021/07 – 2022/03`
+- **宁德新能源 / Ningde New Energy** — Data Analyst Developer / 数据分析开发工程师 · `2021/07 – 2022/03`
   ETL pipeline + automated reporting system for manufacturing data (Selenium + python-pptx + smtplib + Talend).
   搭建生产数据 ETL 清洗链路与自动化报表体系,实现周期性自动输出。
 
