@@ -16,7 +16,22 @@
 - 🏢 Led the core media-processing backend of **AVC.AI** — a Bull + Redis multi-queue scheduling system handling 1000+ heterogeneous compute tasks per day. / 主导 **AVC.AI** 核心媒体处理服务后端，基于 Bull + Redis 的多队列调度日均稳定处理千余异构任务。
 - 🤖 Deep into **AI application backends**: MCP protocol tool servers, Tool Calling, and AI Agent integration. / 深度参与 **AI 应用后端**：MCP 协议工具服务、Tool Calling 与 AI Agent 工具链集成。
 - 🎓 M.Eng. in Computer Science (Fujian Agriculture and Forestry University) — research on **heuristic & combinatorial optimization**; published **3 papers** (2 core journals + ICMLC 2021). / 计算机硕士（福建农林大学），研究方向**启发式与组合优化**，发表论文 3 篇（2 篇核心期刊 + ICMLC 2021）。
-- 🌐 I publish repos in both **English and Chinese**. / 同时用**中英文**发布仓库。
+
+---
+
+### 💼 Work Experience / 工作经历
+
+- **明捷科技 / Mingjie Tech** — *Backend Developer / 后端开发工程师* · `2024/06 – 2026/06`
+  Led the core backend of the **AVC.AI** media-processing platform: Bull + Redis multi-queue scheduling for 1000+ daily heterogeneous tasks; built an MCP-protocol media tool server for AI Agents.
+  主导 **AVC.AI** 媒体处理服务后端:Bull + Redis 多队列调度,日均稳定调度千余异构任务;研发 MCP 协议 media-mcp 工具服务,供 AI Agent 通过自然语言调用。
+
+- **中至数据集团 / Zhongzhi Data Group** — *Python Developer / Python 开发工程师* · `2022/03 – 2023/12`
+  Built a Flask-based intelligent building-design platform; Redis + RabbitMQ distributed pipeline (CAD parse → objectification → remodeling → GLB); BIM objectification via `shapely` + `networkx`.
+  基于 Flask 的建筑智能设计平台后端;Redis + RabbitMQ 串联 CAD 解析 / 对象化 / 翻模 / 转 GLB 四阶段;基于 shapely + networkx 实现 BIM 构件对象化。
+
+- **宁德新能源 / Ningde New Energy** — *Data Analyst Developer / 数据分析开发工程师* · `2021/07 – 2022/03`
+  ETL pipeline + automated reporting system for manufacturing data (Selenium + python-pptx + smtplib + Talend).
+  搭建生产数据 ETL 清洗链路与自动化报表体系,实现周期性自动输出。
 
 ---
 
