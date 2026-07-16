@@ -11,6 +11,10 @@
 
 <a href="#english">🇬🇧 English</a> ｜ <a href="#中文">🇨🇳 中文</a>
 
+<br/>
+
+<a href="https://resumeio.fastapicloud.dev/"><img src="https://img.shields.io/badge/📄_Resume-My_CV-2563EB?style=for-the-badge&labelColor=1f2937" alt="My Resume"/></a>
+
 </div>
 
 ---
@@ -61,6 +65,7 @@
 
 ### 📫 Contact
 
+📄 **Resume:** [resumeio.fastapicloud.dev](https://resumeio.fastapicloud.dev/)
 📧 **Email:** whdeng046@163.com ｜ 🐙 **GitHub:** [SuperGitlab](https://github.com/SuperGitlab)
 
 <p align="right"><a href="#top">⬆ back to top</a></p>
@@ -113,6 +118,7 @@
 
 ### 📫 联系方式
 
+📄 **简历:** [resumeio.fastapicloud.dev](https://resumeio.fastapicloud.dev/)
 📧 **邮箱:** whdeng046@163.com ｜ 🐙 **GitHub:** [SuperGitlab](https://github.com/SuperGitlab)
 
 <p align="right"><a href="#top">⬆ 返回顶部</a></p>
